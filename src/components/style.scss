@@ -1,0 +1,57 @@
+* {
+    font-family: monospace;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.line-through {
+    text-decoration: line-through !important;
+}
+
+.task {
+    cursor: pointer;
+    user-select: none;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.board {
+    width: 400px;
+    margin: 50px;
+    min-height: 100px;
+    text-align: center;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.boardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.task {
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    height: 60px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    padding: 10px;
+}
+
+.control-panel {
+    display: flex;
+    width: 500px;
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.app-name {
+    font-size: 26px;
+}
